@@ -2,12 +2,13 @@
 using namespace std;
 int main()
 {
-        string firstName = "John", lastName = "Smith";
+        string firstName = "John",
+               lastName = "Smith";
         int id = 555;
-        char grade = 'C';
-        bool tuitionPaid = true;
         float gpa = 3.54;
+        char grade = 0b1000100;
         double hairSize = 0.000000036;
+        bool tuitionPaid = true;
         cout << "\n STUDENT INFORMATION\n" << endl;
         cout << "First Name: \t" <<  firstName << " is stored at location " << &firstName << endl;
         cout << "Last Name: \t" << lastName << " is stored at location " << &lastName << endl;
