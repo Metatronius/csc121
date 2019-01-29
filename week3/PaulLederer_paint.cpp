@@ -1,5 +1,5 @@
-#include "stdio.h"
-#include "stdlib.h"
+#include "stdio.h"  //printf()
+#include "stdlib.h" // atof()
 /* Algorithm for finding the gallons of paint needed to paint a room.
  * Input: width, length, height, sqftPerGal
  * Output: float representing the gallons of paint needed to paint a room.*/
