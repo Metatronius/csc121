@@ -3,10 +3,10 @@
 using namespace std;
 int main()
 {
-    float commission = 0.08,
-          fedTax = 0.16,
-          socSec = 0.06,
-          retirement = 0.08;
+    static float commission = 0.08,
+                 fedTax = 0.16,
+                 socSec = 0.06,
+                 retirement = 0.08;
     int sales;
     double grossPay, takeHomePay, totalDeductions;
     printf("Please enter your weekly sales: ");
