@@ -5,7 +5,7 @@ using std::endl;
 int main()
 {
     uint numberToAverage;
-    printf("How many numbers to average: ");
+    cout << "How many numbers to average: ";
     cin >> numberToAverage;
     double temp;
     double total = 0;
@@ -29,4 +29,5 @@ int main()
         total += temp;
     }
     printf("The average of your numbers is %.2f", total / numberToAverage);
+    return 0;
 }
