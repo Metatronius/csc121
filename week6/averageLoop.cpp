@@ -8,7 +8,7 @@ int main()
     printf("How many numbers to average: ");
     cin >> numberToAverage;
     double temp;
-    double total;
+    double total = 0;
     for (int i = 1; i <= numberToAverage; i++)
     {
         switch (i % 10)
