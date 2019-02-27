@@ -1,5 +1,4 @@
 #include <iostream>
-// #include <string>
 using namespace std;
 
 int main()
@@ -41,7 +40,8 @@ int main()
         }
     }
 
-    cout << "The numeric value is " << gpa;
+    printf("The numeric value is %.1f", gpa); //output formatted to be X.Y
+    // cout << "The numeric value is " << gpa;
 
     return 0;
 }
